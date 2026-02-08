@@ -1,7 +1,8 @@
 ---
 title: A22verter
 date: 2022-06-01
-description: Custom power converter design
+description: BLDC motor controller design
+preview: /img/projects/a22verter_irl.jpg
 ---
 
 In A term of 2022 (hence the name), i designed a fun little BLDC motor controller for an independent study project. The

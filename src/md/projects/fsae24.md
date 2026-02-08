@@ -1,7 +1,8 @@
 ---
 title: FSAE Electric 2024
 date: 2024-08-01
-description: Full competition electric car built in a single year — electrical lead
+description: 2024 WPI formula electric car built in a single year — electrical lead — IEEE Excellence in EV Engineering Award (again)
+preview: /img/projects/ev24_three_segments.jpg
 ---
 
 Going into the 2024 season, which would be many of our last, our team knew we wanted to attempt something at the edge of our abilities. We decided to build a full competition legal electric car in a single year, a feat which had previously taken three. In addition to this, we wanted the car to be highly reliable and extremely fun to drive. I was our electrical lead, which meant that I was ultimately responsible for everything from the design, manufacturing, and integration of our high voltage battery to the firmware that runs on our custom STM32 based sensor/data acquisition PCBs.

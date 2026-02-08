@@ -6,8 +6,8 @@ export async function load() {
 		.filter(([path]) => !path.includes('__'))
 		.map(([path, module]: [string, any]) => {
 			const slug = path.split('/').pop()!.replace('.md', '');
-			const { title, date, description } = module.metadata;
-			return { slug, title, date, description };
+			const { title, date, description, preview } = module.metadata;
+			return { slug, title, date, description, preview };
 		})
 		.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 

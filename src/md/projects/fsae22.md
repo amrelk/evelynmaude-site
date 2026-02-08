@@ -1,7 +1,8 @@
 ---
 title: FSAE Electric 2022
 date: 2022-08-01
-description: Formula SAE electric vehicle — IEEE Excellence in EV Engineering award
+description: 2022 WPI formula electric car — accumulator build team member and firmware lead — IEEE Excellence in EV Engineering award
+preview: /img/projects/fsae_bare_accum.jpg
 ---
 
 a nice picture of our ~~boat~~car with the IEEE Excellence in EV Engineering award
@@ -18,7 +19,7 @@ our HV control box
 
 one of the four segments that make up our accumulator
 ![](/img/projects/fsae_segment.jpg)
-![](/img/projects/fsae_segment_top.jpg)
+![a segment of our accumulator](/img/projects/fsae_segment_top.jpg)
 
 one of our pcbs (this image is under uv to demonstrate conformal coat)
 ![](/img/projects/fsae_conformal.jpg)
