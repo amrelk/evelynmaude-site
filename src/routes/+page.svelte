@@ -16,6 +16,6 @@
 		computer vision systems to help farmers spray less pesticides.
 	</p>
 	<p>
-		There are a few fun projects <a href="/projects">here</a>, and a few more on my <a href="https://github.com/evelynmaude">GitHub</a>.
+		There are a few fun projects <a href="/projects">here</a>, and a few more on my <a href="https://github.com/amrelk">GitHub</a>.
 	</p>
 </div>
