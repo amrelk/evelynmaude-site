@@ -11,7 +11,7 @@ export async function load({ params }) {
 			title,
 			date
 		};
-	} catch {
-		error(404, 'issue in post load, likely not found');
+	} catch (e) {
+		error(404, `issue in post "${params.slug}" load, likely not found -- ${e}`);
 	}
 }

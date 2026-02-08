@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>evelyn maude - home</title>
+</svelte:head>
+
 <div class="prose rounded-2xl p-10 shadow-lg outline outline-black/5">
 	<h2>Hi! i'm evelyn</h2>
 	<p>
