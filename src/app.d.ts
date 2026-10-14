@@ -6,7 +6,13 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface PageState {}
-		// interface Platform {}
+		// add @cloudflare/workers-types and uncomment when using bindings (KV, D1, etc.)
+		// interface Platform {
+		// 	env: Env;
+		// 	ctx: ExecutionContext;
+		// 	caches: CacheStorage;
+		// 	cf?: IncomingRequestCfProperties;
+		// }
 	}
 }
 
