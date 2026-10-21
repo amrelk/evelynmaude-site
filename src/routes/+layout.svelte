@@ -8,7 +8,7 @@
 </script>
 
 <Header />
-<div class="container mx-auto mt-10 flex items-center justify-center">
+<div class="container mx-auto mt-10 flex items-center justify-center px-4">
 	{@render children()}
 </div>
 <Footer />

@@ -2,12 +2,15 @@
 	let { slug, title, description, preview } = $props();
 </script>
 
-<a class="prose flex flex-col rounded-2xl shadow-md outline outline-black/5 hover:shadow-xl" href="/projects/{slug}">
+<a
+	class="flex flex-col overflow-hidden rounded-2xl shadow-md outline outline-black/5 hover:shadow-xl"
+	href="/projects/{slug}"
+>
 	{#if preview}
-		<img src={preview} alt={title} class="m-0 h-100 w-full rounded-t-2xl object-cover" />
+		<img src={preview} alt={title} class="aspect-[5/3] w-full object-cover" />
 	{/if}
 	<div class="p-5">
-		<h4 class="font-semibold">{title}</h4>
-		<p>{description}</p>
+		<h2 class="font-semibold text-gray-900">{title}</h2>
+		<p class="mt-2 leading-7 text-gray-700">{description}</p>
 	</div>
 </a>
